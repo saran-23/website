@@ -1,0 +1,88 @@
+@font-face {
+	font-family: curlyCursive;
+	src: url(../fonts/ShorelinesScriptBold.otf);
+}
+
+@font-face {
+	font-family: handwritten;
+	src: url(../fonts/DK_Lemon_Yellow_Sun.otf);
+}
+
+#header {
+	text-align: center;
+}
+
+h1 {
+	font-family: curlyCursive;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+nav {
+	border: solid 1px black;
+	background-color: rgba(224, 185, 195, 0.6);
+	font-family: handwritten;
+	font-size: 16pt;
+}
+
+nav ul {
+	padding: 0px;
+	margin: 0px;
+
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	width: 24%;
+}
+
+body {
+	background-image: url("../img/marble.jpg");
+	text-align: center;
+}
+
+table {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+
+td {
+	border: solid 1px black;
+	height: 20vh;
+	font-family: "Century Gothic";
+	font-size: 20pt;
+	background-color: rgba(156,182, 176,0.7)
+}
+
+td:hover {
+	background-color: rgba(255, 215, 216, 0.5);
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: white;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	color: gray;
+}
+
+a:active {
+	text-decoration: underline;
+}
+
+a:focus {
+	font-size: 18pt;
+}
