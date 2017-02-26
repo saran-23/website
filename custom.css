@@ -1,0 +1,131 @@
+@font-face {
+	font-family: curlyCursive;
+	src: url(../../fonts/ShorelinesScriptBold.otf);
+}
+
+@font-face {
+	font-family: handwritten;
+	src: url(../../fonts/DK_Lemon_Yellow_Sun.otf);
+}
+
+#header {
+	background-color: rgb(233, 233, 230);
+	padding-top: 5px;
+	text-align: center;
+}
+
+h1 {
+	font-family: curlyCursive;
+	font-size: 25pt;
+
+}
+
+h2 {
+	font-family: handwritten;
+	font-size: 23pt;
+	text-align: center;
+}
+
+nav {
+	/* border: solid 1px black; */
+	background-color: rgba(255, 173, 158, 0.6);
+	font-family: handwritten;
+	font-size: 16pt;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: -5px;
+}
+
+nav ul {
+	/* border: solid 1px green; */
+	margin: 0px;
+
+}
+
+nav ul li {
+	/* border: solid 1px red; */
+	list-style: none;
+	display: inline-block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 32%;
+}
+
+#mainArea {
+	background-color: rgba(145,167,194,0.5);
+	padding-top: 10px;
+}
+
+.feature {
+	background-color: white;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 20px;
+	height: 70vh;
+	padding: 0px;
+	
+}
+
+.biography {
+	display: inline-block;
+	width: 53%;
+	vertical-align: top;
+	padding: 15px;
+}
+
+p {
+	font-family: "Century Gothic";
+	font-size: 14pt;
+	text-align: left;
+}
+
+#profile {
+	width: 44%;
+	height: 100%;
+
+}
+
+.socialMedia {
+	background-color: rgba(255, 173, 158, 0.6);
+	text-align: center;
+	margin-top: 30px;
+	vertical-align: top;
+	font-family: handwritten;
+	font-size: 16pt;
+}
+
+.socialMedia ul {
+	margin: 0px;
+}
+
+.socialMedia ul li {
+	list-style: none;
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 20%;
+}
+
+a:hover {
+	background-color: white;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	color: gray;
+}
+
+a:active {
+	text-decoration: underline;
+}
+
+a:focus {
+	font-size: 18pt;
+}
+
+
+
